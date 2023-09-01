@@ -33,7 +33,7 @@ const register = [
   },
 ];
 
-function filterName() {
+const filterName = () => {
   for (let i = 0; i < register.length; i++) {
     let friend = register[i].friends;
     let friendsArray = friend.split(", ")

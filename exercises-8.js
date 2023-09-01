@@ -1,6 +1,6 @@
 // 08 - crie uma função que  verifique se uma  variável é true ou false
 
-function newFunction() {
+const newFunction = () => {
   const x = new Boolean(false);
   const verify = x;
 
@@ -11,6 +11,6 @@ function newFunction() {
   }
 
   return verify;
-}
+};
 
 newFunction();
